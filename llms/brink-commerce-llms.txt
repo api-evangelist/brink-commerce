@@ -1,0 +1,281 @@
+# Brink Commerce
+
+## Brink Commerce
+
+- [Docs Overview](https://docs.brinkcommerce.com/readme.md): Connect any Headless site, app, or system to our Composable Commerce API. Powered by Serverless infrastructure.
+- [Essential Concepts](https://docs.brinkcommerce.com/getting-started/essentials.md): Essential concepts you need to know before using the Brink Commerce API
+- [API Architecture](https://docs.brinkcommerce.com/getting-started/essentials/api-architecture.md): Understanding the three-API architecture and core services
+- [Authentication](https://docs.brinkcommerce.com/getting-started/essentials/authentication.md): Ensure security and stability when integrating with Brink Commerce Retail API Services
+- [Implementation Guides](https://docs.brinkcommerce.com/getting-started/guides.md): Practical guides to get you up and running with Brink Commerce API
+- [Setting up the environment](https://docs.brinkcommerce.com/getting-started/guides/setting-up-the-environment.md): To get started with integrating with Brink Commerce Retail API, you first need to configure your environment
+- [Making your first request](https://docs.brinkcommerce.com/getting-started/guides/making-your-first-request.md): Learn how to authenticate and make your first API request to Brink Commerce
+- [Creating a product and variant](https://docs.brinkcommerce.com/getting-started/guides/creating-a-product-and-variant.md): The next step is to create a product and product variants
+- [Starting a session](https://docs.brinkcommerce.com/getting-started/guides/start-a-cart-session.md): With your newly added product you can now start a Shopper session.
+- [Starting a checkout from a session](https://docs.brinkcommerce.com/getting-started/guides/starting-a-checkout-from-a-session.md)
+- [Complete Workflows](https://docs.brinkcommerce.com/workflows-and-integrations/workflows.md): Complete step-by-step workflows for e-commerce implementation with Brink Commerce
+- [Store Setup Workflow](https://docs.brinkcommerce.com/workflows-and-integrations/workflows/store-setup-workflow.md): Detailed guide for setting up store groups and markets in Brink Commerce
+- [Product Catalog Workflow](https://docs.brinkcommerce.com/workflows-and-integrations/workflows/product-catalog-workflow.md): Comprehensive guide for creating and managing product catalogs in Brink Commerce
+- [Inventory & Pricing Workflow](https://docs.brinkcommerce.com/workflows-and-integrations/workflows/inventory-pricing-workflow.md): Complete guide for managing inventory and pricing across markets in Brink Commerce
+- [Cart & Checkout Workflow](https://docs.brinkcommerce.com/workflows-and-integrations/workflows/cart-checkout-workflow.md): Complete guide for implementing shopping cart and checkout functionality in Brink Commerce
+- [Order Fulfillment Workflow](https://docs.brinkcommerce.com/workflows-and-integrations/workflows/order-fulfillment-workflow.md): Complete guide for managing orders from placement through delivery in Brink Commerce
+- [Complete E-commerce Journey](https://docs.brinkcommerce.com/workflows-and-integrations/workflows/complete-ecommerce-journey.md): A comprehensive guide to implementing a complete e-commerce solution using Brink Commerce APIs
+- [Integrations](https://docs.brinkcommerce.com/workflows-and-integrations/integrations.md): Integration guides for payment providers, shipping providers, and third-party services
+- [Payment Providers](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/payments.md): Payment provider integration guides for Brink Commerce
+- [Kustom](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/payments/kustom.md): Integration guide for using Kustom as a payment provider with Brink Commerce, including Kustom Shipping Assistant for shipping options
+- [Adyen](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/payments/adyen.md): Integration guide for using Adyen as a payment provider with Brink Commerce, including global payment methods and integrated shipping support
+- [Qliro One](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/payments/qliro.md): Integration guide for using Qliro One as a payment provider with Brink Commerce, including integrated shipping selector and checkout solutions
+- [Svea](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/payments/svea.md): Integration guide for using Svea as a payment provider with Brink Commerce, including Nordic payment solutions and integrated shipping support
+- [Walley](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/payments/walley.md): Integration guide for using Walley as a payment provider with Brink Commerce, including delivery module integration and payment solutions.
+- [Avarda](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/payments/avarda.md): Integration guide for using Avarda as a payment provider with Brink Commerce, including shipping broker integration and B2B/B2C solutions
+- [Custom Payment](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/payments/custom-payment.md): This guide walks you through the process of integrating and using a custom Payment Provider in Brink Commerce.
+- [Shipping Providers](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/shipping.md): Shipping provider integration guides for Brink Commerce
+- [Ingrid](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/shipping/ingrid.md): Brink Commerce has an integration with the Transportation Management provider Ingrid.
+- [nShift](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/shipping/nshift.md): Brink Commerce integrates with the shipping and logistics provider nShift (formerly Unifaun).
+- [Custom Shipping](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/shipping/custom-shipping.md): Custom Shipping is Brink's generic, bring-your-own shipping integration.
+- [CRM Providers](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/crm-providers.md)
+- [Voyado Engage](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/crm-providers/voyado-engage.md): We support both version 2 and version 3 of Voyado Engage. The major difference is that version 3 stores order data.
+- [Return Management Provider](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/return-management-provider.md)
+- [Inretrn](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/return-management-provider/inretrn.md): Inretrn is a scalable AI-powered Return Experience Platform, built to manage the entire return journey.
+- [WMS Providers](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/wms-providers.md): Warehouse Management System
+- [Ongoing](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/wms-providers/ongoing.md): Ongoing WMS is a cloud-based Warehouse Management System (WMS) designed for logistics-intensive businesses.
+- [Gift Card Providers](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/gift-card-providers.md)
+- [Retain24](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/gift-card-providers/retain24.md): The gift card product will remain in the session throughout the checkout process. Once the customer completes the purchase, the gift card will be included in the final order.
+- [Shoplab](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/gift-card-providers/shoplab.md): Sell Shoplab gift cards and let shoppers pay with them. Brink handles the cart, checkout and order flow; Shoplab issues the cards and holds the balances.
+- [Tax Providers](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/tax-providers.md): External tax providers — connect TaxJar or Avalara to calculate tax automatically at checkout based on the customer's address and jurisdiction. Best when rates vary by location, such as US sales tax.
+- [TaxJar](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/tax-providers/taxjar.md): Real-time tax calculation, primarily for US sales tax.
+- [Avalara](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/tax-providers/avalara.md): Real-time tax calculation through Avalara AvaTax.
+- [AI - MCP](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/ai.md): Connect an LLM client to your Brink store over MCP and manage it with natural language.
+- [Claude Desktop & claude.ai](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/ai/claude-desktop.md): Connect Claude Desktop or claude.ai to your Brink store as a custom connector (remote MCP).
+- [Claude Code (CLI)](https://docs.brinkcommerce.com/workflows-and-integrations/integrations/ai/claude-code.md): Connect Claude Code (the CLI) to your Brink store with a single command.
+- [Features](https://docs.brinkcommerce.com/workflows-and-integrations/features.md): Advanced features and specialized integrations for Brink Commerce
+- [Discounts & Bundles](https://docs.brinkcommerce.com/workflows-and-integrations/features/discounts-bundles.md): Advanced discount and bundle management for promotional campaigns
+- [Overview](https://docs.brinkcommerce.com/workflows-and-integrations/features/discounts-bundles/overview.md): Handle promotions and campaigns. Bundles allow you to apply a discount to a set of items
+- [Bonus Management](https://docs.brinkcommerce.com/workflows-and-integrations/features/bonus-management.md): Custom bonus system integration and management
+- [Integration Guide](https://docs.brinkcommerce.com/workflows-and-integrations/features/bonus-management/integration.md): How to manage bonus in Brink Commerce
+- [Order Operations](https://docs.brinkcommerce.com/workflows-and-integrations/features/order-operations.md): Comprehensive post-purchase order management and operations
+- [Overview](https://docs.brinkcommerce.com/workflows-and-integrations/features/order-operations/overview.md)
+- [External Price](https://docs.brinkcommerce.com/workflows-and-integrations/features/external-price.md): External price provider used over Brink Commerce's internal price management.
+- [Integration Guide](https://docs.brinkcommerce.com/workflows-and-integrations/features/external-price/integration-guide.md): This guide walks you through the process of integrating and using an External Price Provider in Brink Commerce.
+- [Split Shipment](https://docs.brinkcommerce.com/workflows-and-integrations/features/split-shipment.md): The Shipping Details Provider extension enables merchants to implement split shipment logic through an external service.
+- [Advanced Topics](https://docs.brinkcommerce.com/workflows-and-integrations/advanced.md): Advanced topics and concepts for experienced Brink Commerce developers
+- [Events & Webhooks](https://docs.brinkcommerce.com/workflows-and-integrations/advanced/events.md): Brink Commerce API offers a robust event system that enables you to subscribe to various events related to Product, Discount, and Order services.
+- [Troubleshooting](https://docs.brinkcommerce.com/support/troubleshooting.md)
+- [API Error Reference](https://docs.brinkcommerce.com/support/troubleshooting/api-errors.md): Comprehensive guide to API error troubleshooting. HTTP status codes, error patterns, and solutions for common API response issues with the Brink Commerce API.
+- [API References](https://docs.brinkcommerce.com/technical/api-references.md)
+- [Management](https://docs.brinkcommerce.com/technical/api-references/management.md): Backend management APIs for configuring products, pricing, inventory, and business rules
+- [Cost](https://docs.brinkcommerce.com/technical/api-references/management/cost.md): Manage what products cost the merchant
+- [Costs](https://docs.brinkcommerce.com/technical/api-references/management/cost/costs.md)
+- [Settings](https://docs.brinkcommerce.com/technical/api-references/management/cost/settings.md)
+- [Imports](https://docs.brinkcommerce.com/technical/api-references/management/cost/imports.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/management/cost/models.md)
+- [Discount](https://docs.brinkcommerce.com/technical/api-references/management/discount.md): Mange discount codes and bundles
+- [Discounts](https://docs.brinkcommerce.com/technical/api-references/management/discount/discounts.md)
+- [Rules](https://docs.brinkcommerce.com/technical/api-references/management/discount/rules.md)
+- [Bundles](https://docs.brinkcommerce.com/technical/api-references/management/discount/bundles.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/management/discount/models.md)
+- [Price](https://docs.brinkcommerce.com/technical/api-references/management/price.md): Manage product prices with store market-specific pricing and reference pricing
+- [Product Variant Prices](https://docs.brinkcommerce.com/technical/api-references/management/price/product-variant-prices.md)
+- [Addon Prices](https://docs.brinkcommerce.com/technical/api-references/management/price/addon-prices.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/management/price/models.md)
+- [Product](https://docs.brinkcommerce.com/technical/api-references/management/product.md): Manage product catalogs
+- [Product Variants](https://docs.brinkcommerce.com/technical/api-references/management/product/product-variants.md)
+- [Product Parents](https://docs.brinkcommerce.com/technical/api-references/management/product/product-parents.md)
+- [Addons](https://docs.brinkcommerce.com/technical/api-references/management/product/addons.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/management/product/models.md)
+- [Stock](https://docs.brinkcommerce.com/technical/api-references/management/stock.md): Manage inventories and stock levels
+- [Inventories](https://docs.brinkcommerce.com/technical/api-references/management/stock/inventories.md)
+- [Product Variant Inventories](https://docs.brinkcommerce.com/technical/api-references/management/stock/product-variant-inventories.md)
+- [Store Market Inventories](https://docs.brinkcommerce.com/technical/api-references/management/stock/store-market-inventories.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/management/stock/models.md)
+- [Store](https://docs.brinkcommerce.com/technical/api-references/management/store.md): Manage store groups, markets, and currencies
+- [Store Groups](https://docs.brinkcommerce.com/technical/api-references/management/store/store-groups.md)
+- [Store Markets](https://docs.brinkcommerce.com/technical/api-references/management/store/store-markets.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/management/store/models.md)
+- [Tax](https://docs.brinkcommerce.com/technical/api-references/management/tax.md): Manage product variant tax and VAT for every market
+- [Tax Groups](https://docs.brinkcommerce.com/technical/api-references/management/tax/tax-groups.md)
+- [Tax Markets](https://docs.brinkcommerce.com/technical/api-references/management/tax/tax-markets.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/management/tax/models.md)
+- [Shopper](https://docs.brinkcommerce.com/technical/api-references/shopper.md): Customer-facing APIs for cart management, checkout flows, and payment processing
+- [General](https://docs.brinkcommerce.com/technical/api-references/shopper/general.md): Core shopper functionality for cart management, session handling, and checkout operations
+- [Products](https://docs.brinkcommerce.com/technical/api-references/shopper/general/products.md)
+- [Sessions](https://docs.brinkcommerce.com/technical/api-references/shopper/general/sessions.md)
+- [Checkouts](https://docs.brinkcommerce.com/technical/api-references/shopper/general/checkouts.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/general/models.md)
+- [Payment Providers](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers.md): API documentation for Brink Commerce payment providers with integrated shipping support
+- [Adyen](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/adyen.md): Adyen payment provider with integrated shipping support and comprehensive global payment methods
+- [Adyen](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/adyen/adyen.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/adyen/models.md)
+- [Kustom](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/klarna.md): Kustom payment provider with integrated shipping assistant and unified Order Management operations
+- [Kco](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/klarna/kco.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/klarna/models.md)
+- [Ledyer](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/ledyer.md): Ledyer payment provider with modern checkout experience and integrated shipping support
+- [Ledyer](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/ledyer/ledyer.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/ledyer/models.md)
+- [Qliro](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/qliro.md): Qliro One payment provider with integrated shipping selector and comprehensive payment solutions
+- [Qliro](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/qliro/qliro.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/qliro/models.md)
+- [Svea](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/svea.md): Svea payment provider with Nordic payment solutions and integrated shipping support
+- [Svea](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/svea/svea.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/svea/models.md)
+- [Walley](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/walley.md): Walley payment provider with delivery module integration and flexible payment solutions
+- [Walley](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/walley/walley.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/walley/models.md)
+- [Zaver](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/zaver.md): Zaver payment provider with social commerce integration and comprehensive shipping support
+- [Zaver](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/zaver/zaver.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/zaver/models.md)
+- [Custom Payment](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/custom-payment.md)
+- [Custompayment](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/custom-payment/custompayment.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/custom-payment/models.md)
+- [Avarda](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/avarda.md)
+- [Avarda](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/avarda/avarda.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/payment-providers/avarda/models.md)
+- [Shipping Providers](https://docs.brinkcommerce.com/technical/api-references/shopper/shipping-providers.md)
+- [Ingrid](https://docs.brinkcommerce.com/technical/api-references/shopper/shipping-providers/ingrid.md)
+- [Ingrid](https://docs.brinkcommerce.com/technical/api-references/shopper/shipping-providers/ingrid/ingrid.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/shipping-providers/ingrid/models.md)
+- [NShift](https://docs.brinkcommerce.com/technical/api-references/shopper/shipping-providers/nshift.md)
+- [Nshift](https://docs.brinkcommerce.com/technical/api-references/shopper/shipping-providers/nshift/nshift.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/shipping-providers/nshift/models.md)
+- [Custom Shipping](https://docs.brinkcommerce.com/technical/api-references/shopper/shipping-providers/custom-shipping.md)
+- [Custom Shipping](https://docs.brinkcommerce.com/technical/api-references/shopper/shipping-providers/custom-shipping/custom-shipping.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/shipping-providers/custom-shipping/models.md)
+- [Additional Services](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services.md): Additional services and specialized integrations for the Shopper API
+- [Bonus](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/bonus.md)
+- [Bonus](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/bonus/bonus.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/bonus/models.md)
+- [Retain24](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/retain24.md)
+- [Retain24](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/retain24/retain24.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/retain24/models.md)
+- [Shoplab](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/shoplab.md): Sell Shoplab gift cards and let shoppers pay with them through the Shopper API
+- [Gift Card](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/shoplab/gift-card.md)
+- [Gift Card Payment](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/shoplab/gift-card-payment.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/shoplab/models.md)
+- [Voyado](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/voyado.md)
+- [Voyado](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/voyado/voyado.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/voyado/models.md)
+- [External Price](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/external-price.md)
+- [External Price](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/external-price/external-price.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/shopper/additional-services/external-price/models.md)
+- [Order](https://docs.brinkcommerce.com/technical/api-references/order.md): Order lifecycle management with fulfillment, shipping, returns, and post-purchase operations
+- [Orders](https://docs.brinkcommerce.com/technical/api-references/order/orders.md)
+- [Custom](https://docs.brinkcommerce.com/technical/api-references/order/custom.md)
+- [Deliveries](https://docs.brinkcommerce.com/technical/api-references/order/deliveries.md)
+- [Cancellations](https://docs.brinkcommerce.com/technical/api-references/order/cancellations.md)
+- [Refunds](https://docs.brinkcommerce.com/technical/api-references/order/refunds.md)
+- [Releases](https://docs.brinkcommerce.com/technical/api-references/order/releases.md)
+- [Compensations](https://docs.brinkcommerce.com/technical/api-references/order/compensations.md)
+- [Modifications](https://docs.brinkcommerce.com/technical/api-references/order/modifications.md)
+- [Imports](https://docs.brinkcommerce.com/technical/api-references/order/imports.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/order/models.md)
+- [Extensions](https://docs.brinkcommerce.com/technical/api-references/extensions.md)
+- [Bonus](https://docs.brinkcommerce.com/technical/api-references/extensions/bonus.md)
+- [Shopper](https://docs.brinkcommerce.com/technical/api-references/extensions/bonus/shopper.md)
+- [Order Management](https://docs.brinkcommerce.com/technical/api-references/extensions/bonus/order-management.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/extensions/bonus/models.md)
+- [Custom Payment](https://docs.brinkcommerce.com/technical/api-references/extensions/custom-payment.md)
+- [Shopper](https://docs.brinkcommerce.com/technical/api-references/extensions/custom-payment/shopper.md)
+- [Order Management](https://docs.brinkcommerce.com/technical/api-references/extensions/custom-payment/order-management.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/extensions/custom-payment/models.md)
+- [Custom Shipping](https://docs.brinkcommerce.com/technical/api-references/extensions/custom-shipping.md)
+- [Shopper](https://docs.brinkcommerce.com/technical/api-references/extensions/custom-shipping/shopper.md)
+- [Order Management](https://docs.brinkcommerce.com/technical/api-references/extensions/custom-shipping/order-management.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/extensions/custom-shipping/models.md)
+- [External Price](https://docs.brinkcommerce.com/technical/api-references/extensions/external-price.md)
+- [Shopper](https://docs.brinkcommerce.com/technical/api-references/extensions/external-price/shopper.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/extensions/external-price/models.md)
+- [Shipping Details](https://docs.brinkcommerce.com/technical/api-references/extensions/shipping-details.md)
+- [Shopper](https://docs.brinkcommerce.com/technical/api-references/extensions/shipping-details/shopper.md)
+- [Models](https://docs.brinkcommerce.com/technical/api-references/extensions/shipping-details/models.md)
+- [Events](https://docs.brinkcommerce.com/technical/events.md)
+- [Management](https://docs.brinkcommerce.com/technical/events/management.md): An overview of all the events the management service publishes.
+- [AddonCreated](https://docs.brinkcommerce.com/technical/events/management/addon-created.md): AddonCreated
+- [AddonDeleted](https://docs.brinkcommerce.com/technical/events/management/addon-deleted.md): AddonDeleted
+- [AddonUpdated](https://docs.brinkcommerce.com/technical/events/management/addon-updated.md): AddonUpdated
+- [BundleGroupCreated](https://docs.brinkcommerce.com/technical/events/management/bundle-group-created.md): BundleGroupCreated
+- [BundleGroupDeleted](https://docs.brinkcommerce.com/technical/events/management/bundle-group-deleted.md): BundleGroupDeleted
+- [BundleGroupUpdated](https://docs.brinkcommerce.com/technical/events/management/bundle-group-updated.md): BundleGroupUpdated
+- [DiscountCodeRuleCreated](https://docs.brinkcommerce.com/technical/events/management/discount-code-rule-created.md): DiscountCodeRuleCreated
+- [DiscountCodeRuleDeleted](https://docs.brinkcommerce.com/technical/events/management/discount-code-rule-deleted.md): DiscountCodeRuleDeleted
+- [DiscountCodeRuleUpdated](https://docs.brinkcommerce.com/technical/events/management/discount-code-rule-updated.md): DiscountCodeRuleUpdated
+- [DiscountExternalRuleCreated](https://docs.brinkcommerce.com/technical/events/management/discount-external-rule-created.md): DiscountExternalRuleCreated
+- [DiscountExternalRuleDeleted](https://docs.brinkcommerce.com/technical/events/management/discount-external-rule-deleted.md): DiscountExternalRuleDeleted
+- [DiscountExternalRuleUpdated](https://docs.brinkcommerce.com/technical/events/management/discount-external-rule-updated.md): DiscountExternalRuleUpdated
+- [DiscountRuleCreated](https://docs.brinkcommerce.com/technical/events/management/discount-rule-created.md): DiscountRuleCreated
+- [DiscountRuleDeleted](https://docs.brinkcommerce.com/technical/events/management/discount-rule-deleted.md): DiscountRuleDeleted
+- [DiscountRuleUpdated](https://docs.brinkcommerce.com/technical/events/management/discount-rule-updated.md): DiscountRuleUpdated
+- [ProductAddonCreated](https://docs.brinkcommerce.com/technical/events/management/product-addon-created.md): ProductAddonCreated
+- [ProductAddonDeleted](https://docs.brinkcommerce.com/technical/events/management/product-addon-deleted.md): ProductAddonDeleted
+- [ProductAddonUpdated](https://docs.brinkcommerce.com/technical/events/management/product-addon-updated.md): ProductAddonUpdated
+- [ProductFeedCreated](https://docs.brinkcommerce.com/technical/events/management/product-feed-created.md): ProductFeedCreated
+- [ProductParentCreated](https://docs.brinkcommerce.com/technical/events/management/product-parent-created.md): ProductParentCreated
+- [ProductParentDeleted](https://docs.brinkcommerce.com/technical/events/management/product-parent-deleted.md): ProductParentDeleted
+- [ProductParentUpdated](https://docs.brinkcommerce.com/technical/events/management/product-parent-updated.md): ProductParentUpdated
+- [ProductVariantAdjustedStock](https://docs.brinkcommerce.com/technical/events/management/product-variant-adjusted-stock.md): ProductVariantAdjustedStock
+- [ProductVariantBackInStock](https://docs.brinkcommerce.com/technical/events/management/product-variant-back-in-stock.md): ProductVariantBackInStock
+- [ProductVariantCreated](https://docs.brinkcommerce.com/technical/events/management/product-variant-created.md): ProductVariantCreated
+- [ProductVariantDeleted](https://docs.brinkcommerce.com/technical/events/management/product-variant-deleted.md): ProductVariantDeleted
+- [ProductVariantOutOfStock](https://docs.brinkcommerce.com/technical/events/management/product-variant-out-of-stock.md): ProductVariantOutOfStock
+- [ProductVariantUpdated](https://docs.brinkcommerce.com/technical/events/management/product-variant-updated.md): ProductVariantUpdated
+- [Order](https://docs.brinkcommerce.com/technical/events/order.md): An overview of all the events the order management service publishes.
+- [OrderAddressesModificationCreated](https://docs.brinkcommerce.com/technical/events/order/order-addresses-modification-created.md): OrderAddressesModificationChanged
+- [OrderAddressesModificationDeleted](https://docs.brinkcommerce.com/technical/events/order/order-addresses-modification-deleted.md): OrderAddressesModificationDeleted
+- [OrderAddressesModificationUpdated](https://docs.brinkcommerce.com/technical/events/order/order-addresses-modification-updated.md): OrderAddressesModificationChanged
+- [OrderAddressesModified](https://docs.brinkcommerce.com/technical/events/order/order-addresses-modified.md): OrderAddressesModificationChanged
+- [OrderCancellationCreated](https://docs.brinkcommerce.com/technical/events/order/order-cancellation-created.md): OrderCancellationChanged
+- [OrderCancellationDeleted](https://docs.brinkcommerce.com/technical/events/order/order-cancellation-deleted.md): OrderCancellationDeleted
+- [OrderCancellationUpdated](https://docs.brinkcommerce.com/technical/events/order/order-cancellation-updated.md): OrderCancellationChanged
+- [OrderCancelledFailed](https://docs.brinkcommerce.com/technical/events/order/order-cancelled-failed.md): OrderCancellationChanged
+- [OrderCancelled](https://docs.brinkcommerce.com/technical/events/order/order-cancelled.md): OrderCancellationChanged
+- [OrderCompensatedFailed](https://docs.brinkcommerce.com/technical/events/order/order-compensated-failed.md): OrderCompensationChanged
+- [OrderCompensated](https://docs.brinkcommerce.com/technical/events/order/order-compensated.md): OrderCompensationChanged
+- [OrderCompensationCreated](https://docs.brinkcommerce.com/technical/events/order/order-compensation-created.md): OrderCompensationChanged
+- [OrderCompensationDeleted](https://docs.brinkcommerce.com/technical/events/order/order-compensation-deleted.md): OrderCompensationDeleted
+- [OrderCompensationUpdated](https://docs.brinkcommerce.com/technical/events/order/order-compensation-updated.md): OrderCompensationChanged
+- [OrderCreated](https://docs.brinkcommerce.com/technical/events/order/order-created.md): OrderCreated
+- [OrderDeleted](https://docs.brinkcommerce.com/technical/events/order/order-deleted.md): OrderDeleted
+- [OrderDeliveredFailed](https://docs.brinkcommerce.com/technical/events/order/order-delivered-failed.md): OrderDeliveryChanged
+- [OrderDelivered](https://docs.brinkcommerce.com/technical/events/order/order-delivered.md): OrderDeliveryChanged
+- [OrderDeliveryCreated](https://docs.brinkcommerce.com/technical/events/order/order-delivery-created.md): OrderDeliveryChanged
+- [OrderDeliveryDeleted](https://docs.brinkcommerce.com/technical/events/order/order-delivery-deleted.md): OrderDeliveryDeleted
+- [OrderDeliveryUpdated](https://docs.brinkcommerce.com/technical/events/order/order-delivery-updated.md): OrderDeliveryChanged
+- [OrderLinesModifiedFailed](https://docs.brinkcommerce.com/technical/events/order/order-lines-modified-failed.md): OrderOrderLinesModificationChanged
+- [OrderLinesModified](https://docs.brinkcommerce.com/technical/events/order/order-lines-modified.md): OrderOrderLinesModificationChanged
+- [OrderOrderLinesModificationCreated](https://docs.brinkcommerce.com/technical/events/order/order-order-lines-modification-created.md): OrderOrderLinesModificationChanged
+- [OrderOrderLinesModificationDeleted](https://docs.brinkcommerce.com/technical/events/order/order-order-lines-modification-deleted.md): OrderOrderLinesModificationDeleted
+- [OrderOrderLinesModificationUpdated](https://docs.brinkcommerce.com/technical/events/order/order-order-lines-modification-updated.md): OrderOrderLinesModificationChanged
+- [OrderRefundCreated](https://docs.brinkcommerce.com/technical/events/order/order-refund-created.md): OrderRefundChanged
+- [OrderRefundDeleted](https://docs.brinkcommerce.com/technical/events/order/order-refund-deleted.md): OrderRefundDeleted
+- [OrderRefundUpdated](https://docs.brinkcommerce.com/technical/events/order/order-refund-updated.md): OrderRefundChanged
+- [OrderRefundedFailed](https://docs.brinkcommerce.com/technical/events/order/order-refunded-failed.md): OrderRefundChanged
+- [OrderRefunded](https://docs.brinkcommerce.com/technical/events/order/order-refunded.md): OrderRefundChanged
+- [OrderReleaseCreated](https://docs.brinkcommerce.com/technical/events/order/order-release-created.md): OrderReleaseChanged
+- [OrderReleaseDeleted](https://docs.brinkcommerce.com/technical/events/order/order-release-deleted.md): OrderReleaseDeleted
+- [OrderReleaseUpdated](https://docs.brinkcommerce.com/technical/events/order/order-release-updated.md): OrderReleaseChanged
+- [OrderReleasedFailed](https://docs.brinkcommerce.com/technical/events/order/order-released-failed.md): OrderReleaseChanged
+- [OrderReleased](https://docs.brinkcommerce.com/technical/events/order/order-released.md): OrderReleaseChanged
+- [OrderShippingFeesModificationCreated](https://docs.brinkcommerce.com/technical/events/order/order-shipping-fees-modification-created.md): OrderShippingFeesModificationChanged
+- [OrderShippingFeesModificationDeleted](https://docs.brinkcommerce.com/technical/events/order/order-shipping-fees-modification-deleted.md): OrderShippingFeesModificationDeleted
+- [OrderShippingFeesModificationUpdated](https://docs.brinkcommerce.com/technical/events/order/order-shipping-fees-modification-updated.md): OrderShippingFeesModificationChanged
+- [OrderUpdated](https://docs.brinkcommerce.com/technical/events/order/order-updated.md): OrderUpdated
+- [ShippingFeesModifiedFailed](https://docs.brinkcommerce.com/technical/events/order/shipping-fees-modified-failed.md): OrderShippingFeesModificationChanged
+- [ShippingFeesModified](https://docs.brinkcommerce.com/technical/events/order/shipping-fees-modified.md): OrderShippingFeesModificationChanged
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+This site has an agentic ask interface you may use to query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters:
+
+```
+GET https://docs.brinkcommerce.com/index.md?ask=<question>&goal=<user_goal>
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is what the user is ultimately trying to achieve, the reason they need the answer. Sharing it helps GitBook give you a better, more relevant answer. A goal is most helpful when it describes the outcome the user wants rather than restating the question. For example, with `ask=how do I create an API token`, a goal like `automate deployments from our CI pipeline` lets GitBook tailor the answer to that use case.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.

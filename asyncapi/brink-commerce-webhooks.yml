@@ -1,0 +1,62 @@
+generated: '2026-10-15'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.brinkcommerce.com/workflows-and-integrations/advanced/events.md
+sources:
+- https://docs.brinkcommerce.com/workflows-and-integrations/advanced/events.md
+- https://docs.brinkcommerce.com/technical/events.md
+- https://docs.brinkcommerce.com/technical/events/management.md
+- https://docs.brinkcommerce.com/technical/events/management/addon-created.md
+description: Webhooks can be used to receive event data from Brink Commerce. The documentation lists the available event names but does not specify
+  security or retry details.
+events:
+- event: AddonCreated
+  description: Triggered when a new addon is created.
+- event: DiscountCodeRuleCreated
+  description: Triggered when a discount code rule is created.
+- event: OrderCreated
+  description: Triggered when a new order is created.
+- event: ProductAddonCreated
+  description: Triggered when a product addon is created.
+- event: ProductAddonUpdated
+  description: Triggered when a product addon is updated.
+- event: ProductVariantCreated
+  description: Triggered when a product variant is created.
+- event: ProductVariantUpdated
+  description: Triggered when a product variant is updated.
+- event: ProductParentCreated
+  description: A new product parent has been added.
+- event: ProductParentUpdated
+  description: Any field on a product parent changed.
+- event: ProductParentDeleted
+  description: A product parent has been removed.
+- event: ProductVariantDeleted
+  description: A product variant has been removed.
+- event: AddonUpdated
+  description: Any addon field changed.
+- event: AddonDeleted
+  description: An addon has been removed.
+- event: ProductAddonDeleted
+  description: An addon has been detached from a product parent.
+- event: DiscountRuleCreated
+  description: A new automatic cart rule has been registered.
+- event: DiscountRuleUpdated
+  description: Any field on a cart rule changed.
+- event: DiscountRuleDeleted
+  description: A cart rule has been removed.
+- event: DiscountCodeRuleUpdated
+  description: A code rule's conditions, outcomes, or flags changed.
+- event: DiscountCodeRuleDeleted
+  description: A code rule has been removed.
+- event: DiscountExternalRuleCreated
+  description: A new rule triggered by an external reference has been registered.
+- event: DiscountExternalRuleUpdated
+  description: An external rule's conditions or outcomes changed.
+- event: DiscountExternalRuleDeleted
+  description: An external rule has been removed.
+- event: BundleGroupCreated
+  description: A new bundle group (sets of products) has been created.
+delivery: {}
+note: The pages do not contain information about webhook security (e.g., signature headers or authentication) or retry behavior, so those fields
+  are left empty.
+docs: https://docs.brinkcommerce.com/workflows-and-integrations/advanced/events.md

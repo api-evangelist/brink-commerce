@@ -1,0 +1,30 @@
+generated: '2026-10-15'
+method: derived
+source: openapi/brink-commerce-openapi-generated.yml
+schemes:
+- name: OAuth2
+  source: openapi/brink-commerce-openapi-generated.yml
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth2/token
+scopes:
+- scope: product-management/addon:read
+  flows:
+  - clientCredentials
+  sources:
+  - openapi/brink-commerce-openapi-generated.yml
+- scope: product-management/addon:write
+  flows:
+  - clientCredentials
+  sources:
+  - openapi/brink-commerce-openapi-generated.yml
+- scope: product-management/product:read
+  flows:
+  - clientCredentials
+  sources:
+  - openapi/brink-commerce-openapi-generated.yml
+- scope: product-management/product:write
+  flows:
+  - clientCredentials
+  sources:
+  - openapi/brink-commerce-openapi-generated.yml

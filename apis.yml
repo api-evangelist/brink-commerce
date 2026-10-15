@@ -1,23 +1,137 @@
 aid: brink-commerce
+
 name: Brink Commerce
-description: 'Brink Commerce is a company surfaced via the API Evangelist harvest backlog (source: stockholm-trip)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.prod.website-files.com/69b3f0718b07cc594370de0e/6a97f781f0974d9f944d4614_be994322db203ee7e8fd5f7c893c9032_share-image.jpg
+
+description: Brink Commerce provides enterprise eCommerce solutions enabling brands to build, scale, and manage online stores with flexible APIs,
+  composable architecture, and AI‑driven tools. Their platform supports high‑traffic, complex pricing, global fulfillment, and integrates with
+  ERP, CRM, and marketing systems, helping CEOs, CFOs, CTOs, and agencies accelerate digital commerce initiatives.
+
 url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:stockholm-trip
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-15 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-15'
+
 modified: '2026-10-15'
+
 tags:
-- Company
-apis: []
+- eCommerce
+- API
+- Platform
+- Enterprise
+- Composable
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Spectral
+  url: rules/brink-commerce-rules.yml
+- type: JSONLD
+  url: json-ld/brink-commerce-context.jsonld
+- type: Vocabulary
+  url: vocabulary/brink-commerce-vocabulary.yml
+- type: Webhooks
+  url: asyncapi/brink-commerce-webhooks.yml
+- type: DataModel
+  url: data-model/brink-commerce-data-model.yml
+- type: Authentication
+  url: authentication/brink-commerce-authentication.yml
+- type: Conformance
+  url: conformance/brink-commerce-conformance.yml
+- type: LLMsTxt
+  url: llms/brink-commerce-llms.txt
+- type: SecurityTxt
+  url: well-known/brink-commerce-status-security.txt
+- type: WellKnown
+  url: well-known/brink-commerce-well-known.yml
+- type: Hosts
+  url: hosts/brink-commerce-hosts.yml
+- type: Vendors
+  url: vendors/brink-commerce-vendors.yml
+- type: TermsOfService
+  url: https://www.brinkcommerce.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.brinkcommerce.com/privacy-policy
+- type: Newsroom
+  url: https://www.brinkcommerce.com/news/2022-a-great-year-for-brink-commerce
+- type: Leadership
+  url: https://www.brinkcommerce.com/tags/team
+- type: Blog
+  url: https://blog.brinkcommerce.com/
+- type: GitHubOrganization
+  url: https://github.com/brinkcommerce
+- type: OAuthScopes
+  url: scopes/brink-commerce-scopes.yml
+- type: DomainSecurity
+  url: security/brink-commerce-domain-security.yml
 - type: Website
-  url: https://brinkcommerce.com/
+  url: https://www.brinkcommerce.com/
+- type: Documentation
+  url: https://docs.brinkcommerce.com/
+- type: APIReference
+  url: https://docs.brinkcommerce.com/technical/api-references
+- type: GettingStarted
+  url: https://docs.brinkcommerce.com/getting-started/essentials
+- type: Support
+  url: https://docs.brinkcommerce.com/support/troubleshooting
+- type: StatusPage
+  url: https://status.brinkcommerce.com/
+
+apis:
+- name: Management API
+  description: Backend management APIs for configuring products, pricing, inventory, and business rules.
+  humanURL: https://docs.brinkcommerce.com/technical/api-references/management.md
+  baseURL: null
+  aid: brink-commerce:management-api
+- aid: brink-commerce:brink-commerce-api
+  name: Brink Commerce API
+  description: 'Brink Commerce API as documented publicly: 14 operations. Contract generated from the documentation by API Evangelist (2026-10-15);
+
+    not the provider''s own document.'
+  humanURL: https://docs.brinkcommerce.com/technical/api-references
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/brink-commerce-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-products-productparentid-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-deliveries-deliveryid-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-orders-orderid-compensations-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-orders-reference-reference-response-schema.json
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-15'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://blog.brinkcommerce.com/mcp
+    status: 403
+  - url: https://status.brinkcommerce.com/mcp
+    status: 403
+  - url: https://brinkcommerce.com/
+    status: 200
+x-enrichment:
+  date: '2026-10-15'
+  status: enriched
+  artifacts_added: 22
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

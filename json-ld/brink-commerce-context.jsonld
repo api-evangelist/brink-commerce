@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "@vocab": "https://brinkcommerce.com/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "brink": "https://brinkcommerce.com/schema#",
+    "GetDeliveriesDeliveryidResponse": "brink:GetDeliveriesDeliveryidResponse",
+    "Delivery": {
+      "@id": "brink:Delivery"
+    },
+    "GetOrdersReferenceReferenceResponse": "brink:GetOrdersReferenceReferenceResponse",
+    "Order": {
+      "@id": "brink:Order"
+    },
+    "GetOrdersOrderidCompensationsResponse": "brink:GetOrdersOrderidCompensationsResponse",
+    "compensations": {
+      "@id": "brink:compensations",
+      "@container": "@list"
+    },
+    "GetProductsProductparentidResponse": "brink:GetProductsProductparentidResponse",
+    "default": {
+      "@id": "brink:default",
+      "@type": "xsd:string"
+    }
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "Brink Commerce API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects Brink Commerce's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-10-15) from openapi/_ae-authored/brink-commerce-openapi-generated.yml.",
+  "dcterms:created": "2026-10-15",
+  "dcterms:source": [
+    "openapi/_ae-authored/brink-commerce-openapi-generated.yml"
+  ]
+}

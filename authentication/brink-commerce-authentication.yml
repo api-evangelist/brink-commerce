@@ -1,0 +1,34 @@
+generated: '2026-10-15'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.brinkcommerce.com/getting-started/essentials/authentication.md
+sources:
+- https://docs.brinkcommerce.com/getting-started/essentials/authentication.md
+- https://docs.brinkcommerce.com/getting-started/essentials.md
+- https://docs.brinkcommerce.com/getting-started/essentials/api-architecture.md
+- https://docs.brinkcommerce.com/getting-started/guides.md
+description: Authentication methods for Brink Commerce APIs
+schemes:
+- type: oauth2
+  name: OAuth2
+  evidence: '* `Authorization: Bearer {access_token}`
+
+    * `x-api-key: {api_key}`'
+  location: header
+  header: Authorization
+  flows:
+  - client_credentials
+  token_url: /oauth2/token
+  scopes:
+  - product-management/addon:read
+  - product-management/product:write
+  - product-management/addon:write
+  - product-management/product:read
+  how_to_obtain: Obtain `client_id`, `client_secret`, and `x-api-key` from the Merchant Portal
+- type: apiKey
+  name: x-api-key
+  evidence: '* `x-api-key: {api_key}`'
+  location: header
+  header: x-api-key
+  how_to_obtain: Obtain `x-api-key` from the Merchant Portal
+docs: https://docs.brinkcommerce.com/getting-started/essentials/authentication.md

@@ -1,0 +1,85 @@
+generated: '2026-10-15'
+method: derived
+generator: derive-mcp-candidate.py
+source:
+- openapi/_ae-authored/brink-commerce-openapi-generated.yml
+status: candidate
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+note: 'No MCP server was found. The pre-flight posted tools/list to /mcp on api.brinkcommerce.com, brinkcommerce.com, blog.brinkcommerce.com,
+  docs.brinkcommerce.com; verdict opaque (https://blog.brinkcommerce.com/mcp answered 403: the edge authenticates before it routes, which proves
+  nothing either way). Candidate tools below are derived from the 14 operation(s) in the provider''s own OpenAPI (14 listed); they describe what
+  a server WOULD expose, not one that exists.'
+tools:
+- name: delete_custom_reason_codes_code
+  operationId: delete_custom_reason_codes_code
+  method: DELETE
+  path: /custom/reason-codes/{code}
+  description: Delete a custom reason code
+- name: get_custom_reason_codes_code
+  operationId: get_custom_reason_codes_code
+  method: GET
+  path: /custom/reason-codes/{code}
+  description: Get a custom reason code
+- name: get_custom_states_stateid
+  operationId: get_custom_states_stateid
+  method: GET
+  path: /custom/states/{stateid}
+  description: Get a custom state
+- name: get_deliveries_deliveryid
+  operationId: get_deliveries_deliveryid
+  method: GET
+  path: /deliveries/{deliveryid}
+  description: Get delivery
+- name: get_orders_reference_reference
+  operationId: get_orders_reference_reference
+  method: GET
+  path: /orders/reference/{reference}
+  description: Get order by reference
+- name: get_orders_orderid_compensations
+  operationId: get_orders_orderid_compensations
+  method: GET
+  path: /orders/{orderid}/compensations
+  description: Get order compensations
+- name: delete_orders_orderid_custom_states_stateid
+  operationId: delete_orders_orderid_custom_states_stateid
+  method: DELETE
+  path: /orders/{orderid}/custom-states/{stateid}
+  description: Remove custom state from order
+- name: put_orders_orderid_custom_states_stateid
+  operationId: put_orders_orderid_custom_states_stateid
+  method: PUT
+  path: /orders/{orderid}/custom-states/{stateid}
+  description: Add custom state to order
+- name: get_products_productparentid
+  operationId: get_products_productparentid
+  method: GET
+  path: /products/{productparentid}
+  description: Get product parent costs
+- name: get_technical_api_references_md
+  operationId: get_technical_api_references_md
+  method: GET
+  path: /technical/api-references.md
+  description: For the complete documentation index, see llms.txt.
+- name: get_technical_api_references_extensions_bonus_md
+  operationId: get_technical_api_references_extensions_bonus_md
+  method: GET
+  path: /technical/api-references/extensions/bonus.md
+  description: Bonus
+- name: get_technical_api_references_management_cost_models_md
+  operationId: get_technical_api_references_management_cost_models_md
+  method: GET
+  path: /technical/api-references/management/cost/models.md
+  description: Models
+- name: get_technical_api_references_management_product_md
+  operationId: get_technical_api_references_management_product_md
+  method: GET
+  path: /technical/api-references/management/product.md
+  description: Product Management API enables you to create and manage your product catalog using a two-tier product structure.
+- name: get_technical_api_references_apireferenceid
+  operationId: get_technical_api_references_apireferenceid
+  method: GET
+  path: /technical/api-references/{apireferenceid}
+  description: Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters
