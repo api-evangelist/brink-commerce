@@ -1,0 +1,22 @@
+{
+  "provider": "brink-commerce",
+  "sources": [
+    "_ae-authored/brink-commerce-openapi-generated.yml"
+  ],
+  "outputs": [
+    "brink-commerce-custom-api-openapi.yml",
+    "brink-commerce-deliveries-api-openapi.yml",
+    "brink-commerce-orders-api-openapi.yml",
+    "brink-commerce-products-api-openapi.yml",
+    "brink-commerce-technical-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "brink-commerce-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: written (+5 apis, 6 total)"
+  ],
+  "skipped": []
+}

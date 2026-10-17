@@ -1,0 +1,176 @@
+openapi: 3.2.0
+info:
+  title: Brink Commerce Technical API
+  version: '2026-10-15'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-15: 14 operation(s) read from 24 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Brink Commerce has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 14
+    pages-with-code: 0
+    pages-read: 24
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-15'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://docs.brinkcommerce.com/technical/api-references
+  - https://docs.brinkcommerce.com/technical/api-references.md
+  - https://docs.brinkcommerce.com/technical/api-references/order.md
+  - https://docs.brinkcommerce.com/technical/api-references/shopper.md
+  - https://docs.brinkcommerce.com/technical/api-references/extensions.md
+  - https://docs.brinkcommerce.com/technical/api-references/management.md
+  - https://docs.brinkcommerce.com/technical/api-references/order/custom.md
+  - https://docs.brinkcommerce.com/technical/api-references/order/orders.md
+  - https://docs.brinkcommerce.com/technical/api-references/management/tax.md
+  - https://docs.brinkcommerce.com/technical/api-references/management/cost.md
+  - https://docs.brinkcommerce.com/technical/api-references/shopper/general.md
+  - https://docs.brinkcommerce.com/technical/api-references/extensions/bonus.md
+  - https://docs.brinkcommerce.com/technical/api-references/management/price.md
+  - https://docs.brinkcommerce.com/technical/api-references/management/stock.md
+  - https://docs.brinkcommerce.com/technical/api-references/management/store.md
+  - https://docs.brinkcommerce.com/technical/api-references/order/deliveries.md
+  - https://docs.brinkcommerce.com/technical/api-references/management/product.md
+  - https://docs.brinkcommerce.com/technical/api-references/management/discount.md
+  - https://docs.brinkcommerce.com/technical/api-references/order/cancellations.md
+  - https://docs.brinkcommerce.com/technical/api-references/order/compensations.md
+  - https://docs.brinkcommerce.com/technical/api-references/management/cost/costs.md
+  - https://docs.brinkcommerce.com/technical/api-references/management/tax/models.md
+  - https://docs.brinkcommerce.com/technical/api-references/management/cost/models.md
+  - https://docs.brinkcommerce.com/technical/api-references/extensions/bonus/models.md
+security:
+- OAuth2:
+  - product-management/addon:read
+  - product-management/product:write
+  - product-management/addon:write
+  - product-management/product:read
+- x-api-key: []
+tags:
+- name: Technical
+paths:
+  /technical/api-references.md:
+    get:
+      operationId: get_technical_api_references_md
+      tags:
+      - Technical
+      summary: For the complete documentation index, see llms.txt
+      x-source: https://docs.brinkcommerce.com/technical/api-references
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /technical/api-references/extensions/bonus.md:
+    get:
+      operationId: get_technical_api_references_extensions_bonus_md
+      tags:
+      - Technical
+      summary: Bonus
+      description: Perform an HTTP GET request on the URL with the `ask` and `goal` query parameters to retrieve a direct answer from the documentation.
+      x-source: https://docs.brinkcommerce.com/technical/api-references/extensions/bonus.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s overall goal, describing the desired outcome.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /technical/api-references/management/cost/models.md:
+    get:
+      operationId: get_technical_api_references_management_cost_models_md
+      tags:
+      - Technical
+      summary: Models
+      x-source: https://docs.brinkcommerce.com/technical/api-references/management/cost/models.md
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /technical/api-references/management/product.md:
+    get:
+      operationId: get_technical_api_references_management_product_md
+      tags:
+      - Technical
+      summary: Product Management API enables you to create and manage your product catalog…
+      x-source: https://docs.brinkcommerce.com/technical/api-references/management/product.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The broader objective the user wants to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /technical/api-references/{apireferenceid}:
+    get:
+      operationId: get_technical_api_references_apireferenceid
+      tags:
+      - Technical
+      summary: Perform an HTTP GET request on the following URL with the `ask` and `goal`…
+      description: The endpoint returns a direct answer to the question along with relevant excerpts and sources from the documentation.
+      x-source: https://docs.brinkcommerce.com/technical/api-references/extensions.md
+      parameters:
+      - name: apireferenceid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the desired outcome.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 2 example path(s) differing only at apireferenceId
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        clientCredentials:
+          tokenUrl: /oauth2/token
+          scopes:
+            product-management/addon:read: ''
+            product-management/product:write: ''
+            product-management/addon:write: ''
+            product-management/product:read: ''
+      x-source: https://docs.brinkcommerce.com/getting-started/essentials/authentication.md
+    x-api-key:
+      type: apiKey
+      in: header
+      name: x-api-key
+      x-source: https://docs.brinkcommerce.com/getting-started/essentials/authentication.md

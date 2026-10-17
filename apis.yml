@@ -92,20 +92,20 @@ common:
 
 apis:
 - name: Management API
-  description: Backend management APIs for configuring products, pricing, inventory, and business rules.
+  description: >-
+    Backend management APIs for configuring products, pricing, inventory, and business rules.
   humanURL: https://docs.brinkcommerce.com/technical/api-references/management.md
   baseURL: null
   aid: brink-commerce:management-api
-- aid: brink-commerce:brink-commerce-api
-  name: Brink Commerce API
-  description: 'Brink Commerce API as documented publicly: 14 operations. Contract generated from the documentation by API Evangelist (2026-10-15);
-
-    not the provider''s own document.'
-  humanURL: https://docs.brinkcommerce.com/technical/api-references
+- aid: brink-commerce:brink-commerce-custom-api
+  name: Brink Commerce Custom API
+  description: The Custom API from Brink Commerce — 2 operation(s) for custom.
+  humanURL: https://docs.brinkcommerce.com/technical/api-references/management.md
+  tags:
+  - Custom
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/brink-commerce-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/brink-commerce-custom-api-openapi.yml
   - type: JSONSchema
     url: json-schema/brink-commerce-get-products-productparentid-response-schema.json
   - type: JSONSchema
@@ -114,7 +114,74 @@ apis:
     url: json-schema/brink-commerce-get-orders-orderid-compensations-response-schema.json
   - type: JSONSchema
     url: json-schema/brink-commerce-get-orders-reference-reference-response-schema.json
-
+- aid: brink-commerce:brink-commerce-deliveries-api
+  name: Brink Commerce Deliveries API
+  description: The Deliveries API from Brink Commerce — 1 operation(s) for deliveries.
+  humanURL: https://docs.brinkcommerce.com/technical/api-references/management.md
+  tags:
+  - Deliveries
+  properties:
+  - type: OpenAPI
+    url: openapi/brink-commerce-deliveries-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-products-productparentid-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-deliveries-deliveryid-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-orders-orderid-compensations-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-orders-reference-reference-response-schema.json
+- aid: brink-commerce:brink-commerce-orders-api
+  name: Brink Commerce Orders API
+  description: The Orders API from Brink Commerce — 3 operation(s) for orders.
+  humanURL: https://docs.brinkcommerce.com/technical/api-references/management.md
+  tags:
+  - Orders
+  properties:
+  - type: OpenAPI
+    url: openapi/brink-commerce-orders-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-products-productparentid-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-deliveries-deliveryid-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-orders-orderid-compensations-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-orders-reference-reference-response-schema.json
+- aid: brink-commerce:brink-commerce-products-api
+  name: Brink Commerce Products API
+  description: The Products API from Brink Commerce — 1 operation(s) for products.
+  humanURL: https://docs.brinkcommerce.com/technical/api-references/management.md
+  tags:
+  - Products
+  properties:
+  - type: OpenAPI
+    url: openapi/brink-commerce-products-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-products-productparentid-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-deliveries-deliveryid-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-orders-orderid-compensations-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-orders-reference-reference-response-schema.json
+- aid: brink-commerce:brink-commerce-technical-api
+  name: Brink Commerce Technical API
+  description: The Technical API from Brink Commerce — 5 operation(s) for technical.
+  humanURL: https://docs.brinkcommerce.com/technical/api-references/management.md
+  tags:
+  - Technical
+  properties:
+  - type: OpenAPI
+    url: openapi/brink-commerce-technical-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-products-productparentid-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-deliveries-deliveryid-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-orders-orderid-compensations-response-schema.json
+  - type: JSONSchema
+    url: json-schema/brink-commerce-get-orders-reference-reference-response-schema.json
 x-coverage:
   state: none
   reason: no-developer-program
